@@ -1,0 +1,240 @@
+body {
+  background-color: #e3e3e3;
+  font-family: "Fjalla One";
+  margin: 0 auto;
+}
+
+h1 {
+  font-family:"Fjalla One", monospace;
+  color:#e3e3e3;
+  font-size:410px;
+  font-weight:600;
+  letter-spacing: 5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  opacity:.8;
+ 
+}
+h2 {
+  display:block;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 55px;
+  font-weight: 800ß;
+  color:#e3e3e3;
+  opacity:.75;
+  margin:0 38.5%;
+  letter-spacing:6px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2.projectHeading{
+  margin-top:0;
+  margin-bottom:2%;
+}
+h5 {
+  margin-top:1%;
+  text-align:center;
+  color:black;
+  font-weight:800;
+  font-size:38px;
+  line-height: 1.7em; 
+  margin-right:15%;
+  margin-bottom:5%;
+}
+h3 {
+  font-family:'Fjalla One', 'Source Sans Pro';
+  color:rgba(255,255,255,1);
+  text-align:center;
+  letter-spacing:5px;
+  font-weight:bolder;
+  font-size:45px;
+}
+footer {
+  margin:0 auto;
+  text-align:center;
+}
+p {
+	font-family:"Libre Frank",sans-serif;
+	font-size:16px;
+	display:inline;
+	font-weight:bold;
+	color:black;
+  letter-spacing:2px;
+  margin:0 auto;
+}
+p.footerNotes {
+  font-family:"Libre Frank",sans-serif;
+  font-size:16px;
+  display:inline;
+  text-align:left;
+  letter-spacing:1.5px;
+  margin-left:0;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+ul {
+  text-align: center;
+  padding-right:12%;
+}
+li {
+  display: inline;
+  padding-right:0%;
+  margin:0 auto;
+}
+fieldset {
+  width: 40%;
+  margin: 110px auto 0 auto;
+  border-radius: 14px;
+}
+legend {
+  color:black;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Libre Frank', sans-serif;
+}
+input[type=text] {
+  border: none;
+  display: block;
+  border-bottom: 2px solid black;
+  padding: 0 10px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 2.5em;
+  font-size: 1.2em;
+}
+input[type=text]:focus {
+  width: 100%;
+  background-color: white;
+  outline: none;
+}
+input[type=submit] {
+  width: 100%;
+  background-color:black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.2em;
+  font-family: 'Libre Frank', sans-serif;
+}
+input[type=submit]:hover {
+  background-color: gray;
+  color: whitesmoke;
+}
+.home {
+  background-image: url("https://i.imgur.com/bvrjvmN.jpg?1");
+  background-size:cover;
+  margin-top:0;
+  margin-bottom:20px;
+  height:780px;
+}
+.pageTwo {
+  background-color:#e3e3e3;
+  height:680px;
+  margin:0 auto;
+}
+.pageThree {
+  background-color:#e3e3e3;
+  padding:-8% 8% 0 8%;
+  margin:0 auto;
+  height:700px;
+  text-align:center;
+}
+.pageFour {
+  background-color:#e3e3e3;
+  padding-top:5px;
+  margin-top:25px;
+  height:702px;
+}
+.button {
+  display:inline;
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #587209;
+  color: white;
+  padding:10px 12px 10px 12px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  margin:0 1% 0 1%;
+}
+.linkBar {
+  display:inline;
+}
+.reality {
+  text-align: justify;
+  margin:0 auto;
+}
+.aboutMeSection {
+  float:center;
+  margin:0 auto;
+}
+.aboutMeBox {
+  margin:0 auto;
+  border-radius:40px;
+  color:black;
+  width:50%;
+  padding:1% 2% 1% 2%;
+  float:right;
+  line-height:40px;
+  font-family:"Indie Flower",monospace;
+  font-size:40px;
+  text-align:center;
+}
+.skills {
+  display:block;
+  border-style:dotted;
+  margin:2% 15% 2.5% 5%;
+}
+.projects a {
+  margin-top:1%;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding:0 4.2%;
+}
+#aboutMeImg {
+  display:inline-block;
+  margin:0 0 0 8%;
+  border-radius:50%;
+  border: 7px solid black;
+}
+#aboutList {
+  font-size:35px;
+  font-weight:700;
+  margin:-4% 8% 6% 0;
+  padding:0 0 15% 0;
+}
+#reality {
+  font-family:'Indie Flower', sans-serif; 
+}
+#firstLink {
+  font-family:'Fjalla One', monospace;
+  font-size:65px;
+  font-weight:800;
+  color:#e3e3e3;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  letter-spacing:2px;
+  text-decoration:none;
+  padding-left:15px;
+}
+#navBar {
+  float:right;
+  font-family:"Libre Frank", sans-serif;
+  font-size:50px;
+  font-weight:600;
+  color:#A49B9F;
+  padding:10px 15px 0 15px;
+  text-decoration:none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  opacity:.8;
+  padding-right:20px;
+  letter-spacing:2px;
+}
+
+
+
+  
